@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Join Our Email List</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+<form action="emailList" method="post">
+    <input type="hidden" name="action" value="add">
+
+    <h1>Join our email list</h1>
+    <p>To join our email list, enter your name and email address below.</p>
+
+    <label>Email:</label>
+    <input type="email" name="email" required>
+
+    <label>First Name:</label>
+    <input type="text" name="firstName" required>
+
+    <label>Last Name:</label>
+    <input type="text" name="lastName" required>
+
+    <input type="submit" value="Join Now">
+</form>
+
+<footer>
+    <p>&copy; Copyright Mike Murach &amp; Associates</p>
+</footer>
+</body>
+</html>
